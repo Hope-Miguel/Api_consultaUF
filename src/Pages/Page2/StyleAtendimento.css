@@ -1,0 +1,18 @@
+.Consulta-Valor {
+  width: 100%;
+  padding: 6px;
+  border-radius: 4px;
+}
+
+.inputPreco i {
+  position: relative;
+  height: 75%;
+  padding: 4px;
+  font-size: 18px;
+  color: var(--secondary-1);
+  background-color: var(--primary-0);
+  border-right: 1px solid var(--primary-0);
+}
+.css-ahj2mt-MuiTypography-root {
+  font-size: 12px !important;
+}

@@ -1,0 +1,118 @@
+:root {
+  --primary-0: #483698;
+  --secondary-0: #ffffff;
+  --secondary-1: #f9f9f9;
+  --secondary-2: #b9b9b9;
+  --secondary-3: #8a8a8a;
+  --secondary-4: #282828;
+  --CTA-1: #ffe766;
+  --CTA-0: #fbde40;
+  --Danger: #dc3545;
+
+  --fontFamily-primary: "Comfortaa", cursive;
+  --fontFamily-secondary: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: var(--CTA-0);
+  overflow-x: hidden;
+  place-items: center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  list-style: none;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--fontFamily-primary);
+  font-size: 1.7rem;
+  font-weight: 400;
+  color: var(--primary-0);
+}
+
+h4,
+h5,
+h6 {
+  font-family: var(--fontFamily-secondary);
+  font-weight: 700;
+  color: var(--secondary-4);
+}
+
+.mb-5 {
+  margin-bottom: 5px !important;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.ms-2 {
+  margin-left: 2rem;
+}
+
+.mt-1 {
+  margin-top: 1rem;
+}
+
+.nextButton {
+  padding: 1rem 0 1rem 1rem;
+}
+
+.Consulta {
+  padding: 40px;
+}
+
+.Consulta-form {
+  margin-top: 1rem;
+}
+.Consulta-label {
+  color: var(--secondary-4);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.Consulta-form .Consulta-select,
+input {
+  border: 0;
+  border-radius: 0;
+  height: 25px;
+  outline: none;
+  box-shadow: 0px 0px 1px 1px var(--primary-0), 0px 0px 0px 1px var(--primary-0);
+}
+
+.Consulta-form .inputName {
+  width: 100%;
+}
+
+.Consulta-select {
+  width: 90%;
+  background: var(--secondary-0);
+}
+
+.Consulta-span {
+  color: var(--Danger);
+}
+
+.Consulta-btn {
+  background: var(--primary-0) !important;
+  color: var(--secondary-0) !important;
+  width: 80%;
+  height: 30px;
+}
+
+.progressbar {
+  width: 400px;
+  height: 10px;
+  background-color: white;
+}
+
+.progressbar div {
+  width: 33.3%;
+  height: 100%;
+  background-color: var(--primary-0);
+}
